@@ -26,7 +26,7 @@ function Login() {
           <img src="https://img.icons8.com/ios-filled/50/000000/google-logo.png" alt="google icon"/>
           <span> Continue with Google</span>
        </button>
-       <a href="sms:9285?body=Y ED1">Test open sms</a>
+       <a href="sms://9285/?body=Y%ED1">Test open sms</a>
       </div>
   );
 }
