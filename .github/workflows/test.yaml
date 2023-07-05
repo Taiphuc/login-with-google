@@ -1,0 +1,9 @@
+name: test ci-cd
+on:
+  push:
+    branches: [master]
+jobs:
+  say-test:
+    runs-on: ubuntu-lastest
+    steps:
+      - run: echo test ci-cd
